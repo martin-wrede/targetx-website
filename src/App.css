@@ -242,8 +242,17 @@ img {
         margin-right: 4%; } }
   
   .logo {
-    margin-top: 8px; }
-  
+    margin-top: 8px;
+   } 
+
+   /* fuer die svg als <img>  */
+  #logo {
+    margin-top: 4px;
+   }
+   @media only screen and (max-width: 660px) {
+      #logo {
+        margin-top: 10px;
+       } }
   .logo-svg {
             /*
           width: 74px;
@@ -257,7 +266,7 @@ img {
     height: 30px;
     background: #fff;
     margin-left: 3%;
-    background: url(assets/targetx-logo-outl.svg) 0 70% no-repeat;
+    /*background: url(assets/targetx-logo-outl.svg) 0 70% no-repeat;*/
     background-size: 100%; }
     @media only screen and (max-width: 660px) {
       .logo-container {

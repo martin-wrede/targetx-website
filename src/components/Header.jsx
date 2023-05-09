@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-
+import Logo from '../assets/targetx-logo-outl.svg'
+import Image01 from '../assets/Home-01.jpg'
 
 export default function Home(){
   const [menuShown, setMenuShown ] = useState(false)
@@ -41,8 +42,9 @@ export default function Home(){
     return (
         <header  id="header">
         <div className="logo-container logo" >
+       
         <Link to="/"  >
-            <a href="index.html"><div style={{opacity:"0", width:"100%", height:"100%"}}>targetx.de</div></a>     
+            <a href="index.html"> <img id="logo" src={Logo} /><div style={{opacity:"0", width:"100%", height:"100%"}}>targetx.de</div></a>     
           </Link>
         </div>
         <div id="button1" onClick={toggleMenu} className="menu-icon">
