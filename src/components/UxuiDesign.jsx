@@ -16,9 +16,11 @@ export default function UxuiDesign() {
         <h1>{chapter.content_h1}</h1>
         <h2>{chapter.content_h2}</h2>
         <span>{chapter.content_h1_text}</span>
+
         <img
           className="content-image"
-          src={import.meta.env.BASE_URL + `${chapter.content_h2_image}`}
+          src={`${chapter.content_h2_image}`}
+         // src={import.meta.env.BASE_URL + `${chapter.content_h2_image}`}
         />
         <button onClick={() => window.open(chapter.button_url)}>{chapter.button}</button>
       </div>
