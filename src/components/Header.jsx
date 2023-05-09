@@ -9,7 +9,7 @@ export default function Home(){
   var onresize = function(e) {
     //note i need to pass the event as an argument to the function
     let width = e.target.outerWidth;
-    getElementById('hamburger').style.display= 'block'
+    document.getElementById('hamburger').style.display= 'block'
     const hamburgerVar = document.getElementById('hamburger')
 
       width < 650 ? hamburgerVar.style.display = 'block'  : hamburgerVar.style.display = 'none'
