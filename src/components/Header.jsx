@@ -9,7 +9,9 @@ export default function Home(){
   var onresize = function(e) {
     //note i need to pass the event as an argument to the function
     let width = e.target.outerWidth;
+    getElementById('hamburger').style.display= 'block'
     const hamburgerVar = document.getElementById('hamburger')
+
       width < 650 ? hamburgerVar.style.display = 'block'  : hamburgerVar.style.display = 'none'
       setHamburgerIcon(hamburgerVar.style.display)
   //   console.log(hamburgerIcon)
@@ -38,17 +40,13 @@ export default function Home(){
 
     return (
         <header  id="header">
-        <div className="logo-container logo"
-        
-        >
-        <Link to="/"   
-      
-        >
+        <div className="logo-container logo" >
+        <Link to="/"  >
             <a href="index.html"><div style={{opacity:"0", width:"100%", height:"100%"}}>targetx.de</div></a>     
           </Link>
         </div>
         <div id="button1" onClick={toggleMenu} className="menu-icon">
-          <span className="menu-format"><div id="hamburger">
+      <span className="menu-format"><div id="hamburger">
 			<div className="hamburger-streifen"></div>
 			<div className="hamburger-streifen"></div>
 			<div className="hamburger-streifen"></div>

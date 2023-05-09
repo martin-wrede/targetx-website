@@ -13,9 +13,8 @@ export default function Home(){
    const { data } = useContext(Context)
     return (
         <div>
+
            
-           
-            ////
           {/*
           <img src={Image01} />
           */}
@@ -28,7 +27,7 @@ export default function Home(){
            img5={Image05}   
            amount={targetxData[0].gallery_images} />
 
-            ////////////////////////////
+           
             <h1>{ targetxData[0].gallery_image_title }  </h1> 
             <h2>  { targetxData[0].content_h1 } </h2> 
         </div>
