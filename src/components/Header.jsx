@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/targetx-logo-outl.svg'
-import Image01 from '../assets/Home-01.jpg'
-
+ 
 export default function Home(){
   const [menuShown, setMenuShown ] = useState(false)
   const [hamburgerIcon, setHamburgerIcon ] = useState('block')
@@ -10,7 +9,7 @@ export default function Home(){
   var onresize = function(e) {
     //note i need to pass the event as an argument to the function
     let width = e.target.outerWidth;
-    document.getElementById('hamburger').style.display= 'block'
+   // document.getElementById('hamburger').style.display = 'block'
     const hamburgerVar = document.getElementById('hamburger')
 
       width < 650 ? hamburgerVar.style.display = 'block'  : hamburgerVar.style.display = 'none'

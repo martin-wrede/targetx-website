@@ -5,7 +5,11 @@ const Context = React.createContext();
 function ContextProvider({ children }) {
   const [data, setData] = useState([]);
  // const url= "https://martin-wrede.github.io/reactwebsite-ghpages/media/data2.json"
- const url= "/data2.json";
+  
+// const url = "./data2.json";
+// New absolute path (works correctly)
+// const url = "/targetx-website/data2.json";
+ const url = "./data2.json";
  
   useEffect(() => {
   const getData = async() => {
