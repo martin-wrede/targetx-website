@@ -47,9 +47,9 @@ export default function Gallery({img1, img2,img3,img4, img5, project, amount }){
   
     return (       
         <div id="gallery1">
-        
+        {/*
         {counter} 
-     
+       */}
         <div id="layer2" ><img src={White} /></div>
         <div id="layer1"  >
         <img 

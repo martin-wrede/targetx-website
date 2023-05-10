@@ -1,20 +1,22 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-
-import Home from './components/Home'
-import UxuiDesign from './components/UxuiDesign'
-import GraphicDesign from './components/GraphicDesign'
-import HistMuseumBremerhaven from './components/HistMuseumBremerhaven'
-import Kammerkonzerte from './components/Kammerkonzerte'
-import Passus from './components/Passus'
-import Cooperations from './components/Cooperations'
-import Contact from './components/Contact'
-import './App.css'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/Home';
+import UxuiDesign from './components/UxuiDesign';
+import GraphicDesign from './components/GraphicDesign';
+import HistMuseumBremerhaven from './components/HistMuseumBremerhaven';
+import Kammerkonzerte from './components/Kammerkonzerte';
+import Passus from './components/Passus';
+import Cooperations from './components/Cooperations';
+import Contact from './components/Contact';
+import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/targetx-website">
+    <BrowserRouter 
+  ///  basename="/targetx-website"
+   // basename="/#"
+    >
       <div className="App" id="wrapper">
         <Header />
         <Routes>
@@ -32,5 +34,4 @@ function App() {
   );
 }
 
-
-export default App
+export default App;
