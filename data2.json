@@ -15,9 +15,11 @@
     {
         "gallery_image_title": "ux-ui-design",
         "gallery_images": 3,
-
+        "sidebar_h2":"Papierskizzen",
+        "sidebar_image":"https://targetx.de/wp-content/uploads/sketching-20210618_124624-1000.jpg",
+        "sidebar_text":"",
         "content_chapter":
-         [
+          [
             {
             "content_h1": "UX/UI Design",
             "content_h1_text": "Casestudie UX / UI Design",
