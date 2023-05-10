@@ -22,7 +22,15 @@ export default function UxuiDesign() {
           src={`${chapter.content_h2_image}`}
          // src={import.meta.env.BASE_URL + `${chapter.content_h2_image}`}
         />
+         <span>{chapter.content_h2_text}</span>
+         <br />
+      <br /> 
+      <span>{chapter.content_h2_text2}</span> <br />
+   
+        <br />
         <button onClick={() => window.open(chapter.button_url)}>{chapter.button}</button>
+        <br />
+        <br />
       </div>
     ));
   }
@@ -35,7 +43,13 @@ export default function UxuiDesign() {
         </div>
       </div>
       <div id="sidebar" className="content_sub">
-        <span className="text-markierung">Papierskizzen.</span>
+        <span className="text-markierung"> {data[1] && data[1].sidebar_h2}
+        <br />
+        <br />
+        {data[1] &&  <img src={`${data[1].sidebar_image}`} />
+        }
+        </span>
+        <br />
         <br />
       </div>
       <Footer />
