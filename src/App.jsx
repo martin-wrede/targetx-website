@@ -13,10 +13,6 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter 
-    basename="/targetx-website"
-   // basename="/#"
-    >
       <div className="App" id="wrapper">
         <Header />
         <Routes>
@@ -30,7 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    
   );
 }
 

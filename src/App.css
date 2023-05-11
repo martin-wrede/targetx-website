@@ -105,38 +105,29 @@ img {
   
 #layer1{
    position: relative;
-  
+   z-index: 0; 
   width: 100%;
   height:100%; 
   z-index: 0; 
     
 }
-#layer2{
-  position: absolute;
-  z-index: 1; 
-  /*
-  background: rgb(255, 255, 255);
-  */
+
+.gallery-menu{
   width: 100%;
-  height:100%;
-  
+  height: 30px;
+ 
 }
 
-
-.fade-in{
-  opacity: 1;
-  transition:opacity 1s ease;
-
+.gallery-menu-icon{
+  width: 30px;
+  height: 30px;
 }
-.fade-out{
-  opacity: 0;
-  transition:opacity 1s ease;
-  
-}
+ 
+
 /********** **********************/
 
   #hamburger {
-    display:block;
+    display:none;
     width:28px;
     height:30px;
     
