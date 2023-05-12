@@ -22,9 +22,10 @@ export default function UxuiDesign() {
           src={`${chapter.content_h2_image}`}
          // src={import.meta.env.BASE_URL + `${chapter.content_h2_image}`}
         />
-         <span>{chapter.content_h2_text}</span>
+         <span><i>{chapter.content_h2_text1}</i></span>
          <br />
       <br /> 
+      Tasks: <br /> 
       <span>{chapter.content_h2_text2}</span> <br />
    
         <br />

@@ -30,6 +30,7 @@ export default function Home(){
            
             <h1>{ targetxData[0].gallery_image_title }  </h1> 
             <h2>  { targetxData[0].content_h1 } </h2> 
+            <span><i>{ targetxData[0].content_h1_text}</i></span>
         </div>
        
     )

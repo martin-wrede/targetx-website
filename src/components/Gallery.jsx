@@ -79,8 +79,10 @@ export default function Gallery({ img1, img2, img3, img4, img5, project, amount 
 
       
       <div className='gallery-menu'>
-        <img src={PfeilLinks}  id="backward" onClick={() => nextImageBackward(-1)} className='gallery-menu-icon' />
-        {(Math.floor(counter / 10) + 1) + '/' + amount}
+        <img src={PfeilLinks}  id="backward"
+       
+        onClick={() => nextImageBackward(-1)} className='gallery-menu-icon' />
+        <span className='gallery-text'>{(Math.floor(counter / 10) + 1) + '/' + amount} </span>
         <img src={PfeilRechts} id="forward" onClick={() => nextImageForward(1)} className='gallery-menu-icon' />
         {/* 
         <img src={Rechteck} id="stop" onClick={() => clearInterval(timerRef.current)} className='gallery-menu-icon' />

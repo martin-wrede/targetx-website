@@ -58,7 +58,9 @@ img {
   #menu {
     margin-top: -16px;
     float: right;
-    display: block; }
+    display: block; 
+    font-weight: 600;
+  }
     @media only screen and (max-width: 660px) {
       #menu {
         width: 100%;
@@ -105,24 +107,41 @@ img {
   
 #layer1{
    position: relative;
-   z-index: 0; 
   width: 100%;
   height:100%; 
-  z-index: 0; 
+  
     
 }
 
 .gallery-menu{
   width: 100%;
-  height: 30px;
- 
+  height: 36px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.gallery-menu-icon{
-  width: 30px;
-  height: 30px;
+.gallery-menu-icon:hover {
+  cursor: pointer;
+  
+  background-color:#ff3300;
+
 }
  
+.gallery-menu-icon{
+  padding:3px;
+  margin:4px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.gallery-text{
+  font-size: 1.2rem;
+  font-weight:100;
+  color: #000;
+}
+ 
+
 
 /********** **********************/
 
