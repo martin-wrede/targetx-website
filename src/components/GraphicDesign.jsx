@@ -22,15 +22,15 @@ export default function GraphicDesign(){
           <br />
           EXPO 2000
           <br />
-          <a href="/felix1/">felix1</a>
+          felix1
           <br />
           GIU
           <br />
-          <a href="/histmuseumbremerhaven/">Historisches Museum Bremerhaven</a>
+          Historisches Museum Bremerhaven
           <br />
           Historisches Museum Saar
           <br />
-          <a href="/huberlin/">Humboldt Universität Berlin</a>
+          Humboldt Universität Berlin
           <br />
           J.J. Darboven
           <br />
@@ -40,7 +40,7 @@ export default function GraphicDesign(){
           <br />
           NGBK Berlin
           <br />
-          <a href="/passus/">passus</a>
+          passus
           <br />
           Universität Karlsruhe / Fachbereich Informatik
           <br />
