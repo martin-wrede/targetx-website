@@ -6,10 +6,10 @@ import Rechteck from '../assets/rechteck.svg';
 
 let timerID = 0;
 
-export default function Gallery({ img1, img2, img3, img4, img5, project, amount }) {
+export default function Gallery({ img1, img2, img3, img4, img5, img6, project, amount }) {
   const [counter, setCounter] = useState(0);
   
-  const images = [img1, img2, img3, img4, img5];
+  const images = [img1, img2, img3, img4, img5,  img6];
   const timerRef = useRef(null); // Use useRef to create a mutable reference
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export default function Gallery({ img1, img2, img3, img4, img5, project, amount 
     // if less then 10 go back with go to max amount, here 10
     if(currentCounter < 10){
         let newCounter = amount*10 + nr*10 ;
-        return setCounter(newCounter)
+          return setCounter(newCounter)
     }
     else {
         let newCounter = currentCounter + nr*10 ;

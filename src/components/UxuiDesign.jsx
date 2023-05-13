@@ -1,9 +1,7 @@
 import React, { useContext } from 'react';
 import Gallery from './Gallery';
 import Footer from './Footer';
-// import targetxData from '../data';
 import { Context } from '../Context';
-import Image01 from '../assets/Phone-11-flatlay-mockup.jpg';
 
 export default function UxuiDesign() {
   const { data } = useContext(Context);
