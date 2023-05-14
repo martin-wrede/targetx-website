@@ -1,15 +1,32 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import Gallery from './Gallery';
+import Footer from './Footer';
+import { Context } from '../Context';
 
-import '../App.css';
 
 export default function GraphicDesign(){
+  const {data} = useContext(Context)
+
+  let content = null
+  if (data[2] && data[2].content_chapter) {
+    content = data[2].content_chapter.map((chapter, index) => (
+      <div key={index}>
+        ...//////
+        <h1>{chapter.content_h1}</h1> 
+        <h2>{chapter.content_h2}</h2>
+        <span>{chapter.content_h1_text}</span>
+       {data[2] && data[2].sidebar_h2}
+      <br /> 
+      </div>
+    ))
+    }
+
     return (
         <div className="content_container" id="main">
       <div className="content_main" id="content">
-        <h1>Projekte</h1>
-        <p>
-          <span class="text-markierung">Übersicht Referenzen</span>
-        </p>
+      <h1>Graphic-Design</h1>
+
+      <h2>Project Overview</h2>
         <p>
           <br />
           autenticon
@@ -52,9 +69,16 @@ export default function GraphicDesign(){
         </p>
       </div>
       <div id="sidebar" className="content_sub">
-        
-        <div className="clear"></div>
-      </div>
-    </div>
-    )
-}
+      <span className="text-markierung"> {data[2] && data[2].sidebar_h2}</span>
+      <br />
+              <br />
+              
+              
+              <br />
+              <br />
+            </div>
+            <Footer />
+          </div>
+        );
+      }
+      

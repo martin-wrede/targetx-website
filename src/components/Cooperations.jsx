@@ -9,7 +9,7 @@ export default function Cooperations(){
       <div className="content_main" id="content">
         <h1>Cooperations</h1>
         <p>
-          <span class="text-markierung">fsg3</span>
+          <span className="text-markierung">fsg3</span>
           <br />
           Communication and Design, München
           <br />
@@ -23,7 +23,7 @@ export default function Cooperations(){
           </a>
         </p>
         <p>
-          <span class="text-markierung">replug</span>
+          <span className="text-markierung">replug</span>
           <br />
           Link:{" "}
           <a
@@ -36,12 +36,12 @@ export default function Cooperations(){
         </p>
         <h1>Further Projects</h1>
         <p>
-          <span class="text-markierung">framez</span>
+          <span className="text-markierung">framez</span>
           <br />
           
         </p>
         <p>
-          <span class="text-markierung">top e.V.</span>
+          <span className="text-markierung">top e.V.</span>
           <br />
           top, Verein zur Förderung kultureller Praxis
           <br />

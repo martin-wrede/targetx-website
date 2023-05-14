@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import Gallery from './Gallery';
 import Footer from './Footer';
-
 import { Context } from '../Context';
 
 import Image01 from '../assets/Lakonia-01.jpg'
@@ -16,7 +15,7 @@ import '../App.css';
 export default function HistMuseumBremerhaven () {
         const { data } = useContext(Context);
 
-        let content_ux = null;
+        let content = null;
 
         function textModify(myString){
           console.log(myString)
@@ -27,7 +26,7 @@ export default function HistMuseumBremerhaven () {
         }
       
         if (data[3] && data[3].content_chapter) {
-          content_ux = data[3].content_chapter.map((chapter, index) => (
+          content = data[3].content_chapter.map((chapter, index) => (
             <div key={index}>
               <h1>{chapter.content_h1}</h1>
               <h2>{chapter.content_h2}</h2>
@@ -58,11 +57,13 @@ export default function HistMuseumBremerhaven () {
           <div>
             <div className="content_container" id="main">
               <div className="content_main" id="content">
-                {content_ux}
+                {content}
               </div>
             </div>
             <div id="sidebar" className="content_sub">
               <span className="text-markierung"> {data[3] && data[3].sidebar_h2}</span>
+              <br />
+              <br />
               <Gallery project="Lakonia"
                 img1={Image01} 
                 img2={Image02} 

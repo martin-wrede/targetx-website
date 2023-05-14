@@ -5,7 +5,7 @@ export default function Contact(){
     return (
         <div className="content_container" id="main">
         <div className="content_main" id="content">
-          <h1 class="page-title entry-title">Kontakt</h1>
+          <h1 className="page-title entry-title">Contact</h1>
           <p>targetx Medien-Design</p>
           <p>
             Martin Wrede
@@ -27,7 +27,7 @@ export default function Contact(){
               info@targetx.de
             </a>
           </p>
-          <h1 class="page-title entry-title">Impressum</h1>
+          <h1 className="page-title entry-title">Impressum</h1>
           <p>
             Haftungshinweis:
             <br />
@@ -44,14 +44,14 @@ export default function Contact(){
             keiner Form verwertet werden (§15 UrhG). Davon ausgenommen sind nur
             Daten, die ausdrücklich zu diesem Zweck bereitgehalten werden.
           </p>
-          <h1 class="p1">
-            <span class="s1">Datenschutz</span>
+          <h1 className="p1">
+            <span className="s1">Datenschutz</span>
           </h1>
-          <p class="p1">
-            <span class="s1">Allgemeiner Hinweis und Pflichtinformationen:</span>
+          <p className="p1">
+            <span className="s1">Allgemeiner Hinweis und Pflichtinformationen:</span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt)
               werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke
               der Bereitstellung eines funktionsfähigen und nutzerfreundlichen
@@ -73,75 +73,75 @@ export default function Contact(){
               Mittel der Verarbeitung entscheiden.
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">I. Informationen über uns als Verantwortliche</span>
+          <p className="p1">
+            <span className="s1">I. Informationen über uns als Verantwortliche</span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Verantwortlicher Anbieter dieses Internetauftritts im
               datenschutzrechtlichen Sinne ist:
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">Martin Wrede</span>
+          <p className="p1">
+            <span className="s1">Martin Wrede</span>
           </p>
-          <p class="p2">
-            <span class="s1">Kameruner Str. 49</span>
+          <p className="p2">
+            <span className="s1">Kameruner Str. 49</span>
           </p>
-          <p class="p2">
-            <span class="s1">13351 Berlin</span>
+          <p className="p2">
+            <span className="s1">13351 Berlin</span>
           </p>
-          <p class="p1">
-            <span class="s1">Deutschland</span>
+          <p className="p1">
+            <span className="s1">Deutschland</span>
           </p>
-          <p class="p1">
-            <span class="s1">II. Rechte der Nutzer und Betroffenen</span>
+          <p className="p1">
+            <span className="s1">II. Rechte der Nutzer und Betroffenen</span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Mit Blick auf die nachfolgend noch näher beschriebene
               Datenverarbeitung haben die Nutzer und Betroffenen das Recht
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               &#8212; auf Bestätigung, ob sie betreffende Daten verarbeitet
               werden, auf Auskunft über die verarbeiteten Daten, auf weitere
               Informationen über die Datenverarbeitung sowie auf Kopien der Daten
               (vgl. auch Art. 15 DSGVO)
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               &#8212; auf Berichtigung oder Vervollständigung unrichtiger bzw.
               unvollständiger Daten (vgl. auch Art. 16 DSGVO)
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               &#8212; auf unverzügliche Löschung der sie betreffenden Daten (vgl.
               auch Art. 17 DSGVO), oder, alternativ, soweit eine weitere
               Verarbeitung gemäß Art. 17 Abs. 3 DSGVO erforderlich ist, auf
               Einschränkung der Verarbeitung nach Maßgabe von Art. 18 DSGVO
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               &#8212; auf Erhalt der sie betreffenden und von ihnen
               bereitgestellten Daten und auf Übermittlung dieser Daten an andere
               Anbieter/Verantwortliche (vgl. auch Art. 20 DSGVO)
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               &#8212; auf Beschwerde gegenüber der Aufsichtsbehörde, sofern sie
               der Ansicht sind, dass die sie betreffenden Daten durch den Anbieter
               unter Verstoß gegen datenschutzrechtliche Bestimmungen verarbeitet
               werden (vgl. auch Art. 77 DSGVO).
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Darüber hinaus ist der Anbieter dazu verpflichtet, alle Empfänger,
               denen gegenüber Daten durch den Anbieter offengelegt worden sind,
               über jedwede Berichtigung oder Löschung von Daten oder die
@@ -152,8 +152,8 @@ export default function Contact(){
               der Nutzer ein Recht auf Auskunft über diese Empfänger.
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Ebenfalls haben die Nutzer und Betroffenen nach Art. 21 DSGVO das
               Recht auf Widerspruch gegen die künftige Verarbeitung der sie
               betreffenden Daten, sofern die Daten durch den Anbieter nach Maßgabe
@@ -162,11 +162,11 @@ export default function Contact(){
               Direktwerbung statthaft.
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">III. Informationen zur Datenverarbeitung</span>
+          <p className="p1">
+            <span className="s1">III. Informationen zur Datenverarbeitung</span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Ihre bei Nutzung unseres Internetauftritts verarbeiteten Daten
               werden gelöscht oder gesperrt, sobald der Zweck der Speicherung
               entfällt, der Löschung der Daten keine gesetzlichen
@@ -175,11 +175,11 @@ export default function Contact(){
               werden.
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">Serverdaten</span>
+          <p className="p1">
+            <span className="s1">Serverdaten</span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Aus technischen Gründen, insbesondere zur Gewährleistung eines
               sicheren und stabilen Internetauftritts, werden Daten durch Ihren
               Internet-Browser an uns bzw. an unseren Webspace-Provider
@@ -201,11 +201,11 @@ export default function Contact(){
               Löschung ausgenommen.
             </span>
           </p>
-          <p class="p1">
-            <span class="s1">IV. Kontaktmöglichkeit</span>
+          <p className="p1">
+            <span className="s1">IV. Kontaktmöglichkeit</span>
           </p>
-          <p class="p1">
-            <span class="s1">
+          <p className="p1">
+            <span className="s1">
               Sofern Sie per E-Mail mit uns in Kontakt treten, werden die dabei
               von Ihnen angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt.
               Die Angabe der Daten ist zur Bearbeitung und Beantwortung Ihre
