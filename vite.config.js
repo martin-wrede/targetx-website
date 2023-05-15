@@ -4,6 +4,9 @@ import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
   base:'/targetx-website/',
+  build: {
+    assetsInlineLimit: 0, // Disable inlining assets
+  },
   plugins: [
     react(),
     svgr()
