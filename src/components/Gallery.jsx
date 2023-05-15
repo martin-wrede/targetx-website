@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 import PfeilLinks from '../assets/pfeil-links.svg' ;
 import PfeilRechts from '../assets/pfeil-rechts.svg';
@@ -9,7 +9,8 @@ export default function Gallery({ img1, img2, img3, img4, img5, img6, project, a
   const [counter, setCounter] = useState(0);
   
   const images = [img1, img2, img3, img4, img5,  img6];
-  
+  const timerRef = useRef(null); // Use useRef to create a mutable reference
+
   useEffect(() => {
     timerID += 1;
 
