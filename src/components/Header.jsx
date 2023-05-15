@@ -8,7 +8,7 @@ export default function Home(){
   const [browserWidth,setBrowserWidth] = useState(window.outerWidth)
   
 
-  var onresize = function(e) {
+let onresize = function(e) {
     //note i need to pass the event as an argument to the function
     let width = e.target.outerWidth;
     setBrowserWidth(width)

@@ -36,7 +36,7 @@ export default function Cooperations(){
         </p>
         <h1>Further Projects</h1>
         <p>
-          <span className="text-markierung">framez</span>
+         
           <br />
           
         </p>
@@ -49,9 +49,7 @@ export default function Cooperations(){
 
 
 
-
-          <br />
-         
+ 
           <br />
           Link:{" "}
           <a

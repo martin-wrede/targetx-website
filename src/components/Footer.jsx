@@ -4,11 +4,11 @@ export default function Footer(){
 
 
 return(
-    <footer>
+    <Footer>
 
    <span style={{ color:"white" }}>CRYSTAL Theme </span> 
     
-  </footer>
+  </Footer>
 
 )
 
