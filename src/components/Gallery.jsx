@@ -8,7 +8,7 @@ let timerID = 0;
 export default function Gallery({ img1, img2, img3, img4, img5, img6, project, amount }) {
   const [counter, setCounter] = useState(0);
   
-  const images = [img1, img2, img3, img4, img5,  img6];
+  const images = [img1, img2, img3, img4, img5, img6];
   const timerRef = useRef(null); // Use useRef to create a mutable reference
 
   useEffect(() => {
@@ -28,6 +28,8 @@ export default function Gallery({ img1, img2, img3, img4, img5, img6, project, a
         }
 
         return currentCounter + 1;
+
+        
       });
     }, 400);
 
