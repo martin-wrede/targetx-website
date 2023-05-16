@@ -72,6 +72,10 @@ export default function GraphicDesign(){
       <span className="text-markierung"> {data[2] && data[2].sidebar_h2}</span>
       <br />
               <br />
+      {data[2] &&  <img src={`${data[2].sidebar_image}`} />
+        }
+      <br />
+              <br />
               
               
               <br />

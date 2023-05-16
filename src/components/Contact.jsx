@@ -220,7 +220,11 @@ export default function Contact(){
           </p>
         </div>
         <div id="sidebar" className="content_sub">
-       
+        <span className="text-markierung">Contact me!</span>
+        <br/>
+        <br/>
+        
+        <img src="contact-iot-1024x611.jpg" />
           <div className="clear"></div>
         </div>
       </div>

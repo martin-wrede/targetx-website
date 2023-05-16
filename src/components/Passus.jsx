@@ -3,9 +3,9 @@ import Gallery from './Gallery';
 import Footer from './Footer';
 import { Context } from '../Context';
 
-import Image01 from '../assets/passus-01.jpg'
-import Image02 from '../assets/passus-02.jpg'
-import Image03 from '../assets/passus-03.jpg'
+import Image01 from '../assets/Passus-01.jpg'
+import Image02 from '../assets/Passus-02.jpg'
+import Image03 from '../assets/Passus-03.jpg'
 
 import '../App.css';
 

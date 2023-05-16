@@ -52,20 +52,23 @@ export default function Cooperations(){
  
           <br />
           Link:{" "}
-          <a
-            href="http://www.top-ev.de/"
-            target="_blank"
+          <a href="http://www.top-ev.de/"target="_blank"
             rel="noopener noreferrer"
           >
             www.top-ev.de
           </a>
         </p>
       </div>
+     
       <div id="sidebar" className="content_sub">
-         
+        <span className="text-markierung">Top e.V.</span>
+        <br/>
+        <br/>
+        
+        <img src="/targetx-website/Mythcelium-Festival-News-Letter.jpg" />
         <div className="clear"></div>
       </div>
-    </div>
-        </div>
+      </div>
+      </div>
     )
 }

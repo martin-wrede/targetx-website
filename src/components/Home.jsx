@@ -7,15 +7,25 @@ import Image02 from '../assets/Home-02.jpg'
 import Image03 from '../assets/Home-03.jpg'
 import Image04 from '../assets/Home-04.jpg'
 import Image05 from '../assets/Home-05.jpg'
+
  
 export default function Home(){
    const { data } = useContext(Context)
+
+    let content  = null
+   if (data[0] && data[0].gallery_image_names) {
+    content = data[0].gallery_image_names.map((chapter, index) => (
+        <div key={index}>
+             {chapter.gallery_image_name}
+        </div> 
+    ))}
+
     return (
         <div>
           {/* <img src={Image01} />  */}
       
            <Gallery project="Home"
-           img1={Image01} 
+           img1={data[0] && data[0].gallery_image_names[0].gallery_image_name} 
            img2={Image02} 
            img3={Image03}  
            img4={Image04} 
