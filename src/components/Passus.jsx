@@ -28,7 +28,8 @@ export default function HistMuseumBremerhaven () {
               <h1>{chapter.content_h1}</h1>
              
               <span>{chapter.content_h1_text}</span>
-      
+              <br />
+              <br />
               <img
                 className="content-image"
                 src={`${chapter.content_h2_image}`}

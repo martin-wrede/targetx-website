@@ -34,10 +34,11 @@ export default function Cooperations(){
             www.replug.de
           </a>
         </p>
+        <br />
         <h1>Further Projects</h1>
         <p>
          
-          <br />
+         
           
         </p>
         <p>
