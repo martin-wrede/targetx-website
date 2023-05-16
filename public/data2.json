@@ -1,6 +1,7 @@
 [
   {
       "gallery_image_title": "Home",
+      "gallery_images": "5",
       "gallery_image_names": 
       [
         {
@@ -19,7 +20,7 @@
           "gallery_image_name": "/targetx-website/Home-05.jpg"
         }
       ],
-      "gallery_images": "5",
+      
       "sidebar_h2":"",
       "sidebar_image":"",
       "sidebar_text":"",
@@ -80,7 +81,8 @@
   },
   {
       "gallery_image_title": "graphic-design",
-      "gallery_images": 0,
+      "gallery_images": "6",
+    
       "sidebar_h2":"Poster-Design",
       "sidebar_image":"/targetx-website/kulturen-des-wir.jpg", 
       "sidebar_text":"",
@@ -97,8 +99,56 @@
   {
       "gallery_image_title1": "Lakonia",
       "gallery_images1": 17,
+      "gallery_image1_names": 
+      [
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-01.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-02.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-03.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-04.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-05.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-06.jpg"
+        }
+      ],
       "gallery_image_title2": "Reise",
-      "gallery_images2": 9,
+      "gallery_images2": 6,
+      "gallery_image2_names": 
+      [
+        {
+          "gallery_image2_name": "/targetx-website/Reise-01.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-02.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-03.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-04.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-05.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-06.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-07.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-08.jpg"
+        }
+      ],
       "sidebar_h2":"Gallery Lakonia / Reise",
       "sidebar_image":"",
       "sidebar_text":"",

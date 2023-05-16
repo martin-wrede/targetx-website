@@ -5,10 +5,10 @@ import PfeilRechts from '../assets/pfeil-rechts.svg';
 
 let timerID = 0;
 
-export default function Gallery({ img1, img2, img3, img4, img5, img6, project, amount }) {
+export default function Gallery({ img1, img2, img3, img4, img5, img6, img7,img8, img9, project, amount }) {
   const [counter, setCounter] = useState(0);
   
-  const images = [img1, img2, img3, img4, img5];
+  const images = [img1, img2, img3, img4, img5, img6,img7, img8, img9];
   const timerRef = useRef(null); // Use useRef to create a mutable reference
 
   useEffect(() => {
@@ -74,8 +74,14 @@ export default function Gallery({ img1, img2, img3, img4, img5, img6, project, a
 
   return (
     <div id="gallery1">
+     
+      {/*  double check of the counter, since the other not  100% safe */}
+      { (counter>(amount*10)-3) && setCounter(0)}
       <div id="layer1">
         <img id="galleryimage" src={images[Math.floor(counter / 10)]} />
+      
+           
+        
       </div>
 
       

@@ -2,11 +2,6 @@ import React, { useContext } from 'react'
 import Gallery from './Gallery'
          
 import { Context } from '../Context'
-import Image01 from '../assets/Home-01.jpg'
-import Image02 from '../assets/Home-02.jpg'
-import Image03 from '../assets/Home-03.jpg'
-import Image04 from '../assets/Home-04.jpg'
-import Image05 from '../assets/Home-05.jpg'
 
  
 export default function Home(){
@@ -26,10 +21,10 @@ export default function Home(){
       
            <Gallery project="Home"
            img1={data[0] && data[0].gallery_image_names[0].gallery_image_name} 
-           img2={Image02} 
-           img3={Image03}  
-           img4={Image04} 
-           img5={Image05}   
+           img2={data[0] && data[0].gallery_image_names[1].gallery_image_name}  
+           img3={data[0] && data[0].gallery_image_names[2].gallery_image_name}  
+           img4={data[0] && data[0].gallery_image_names[3].gallery_image_name} 
+           img5={data[0] && data[0].gallery_image_names[4].gallery_image_name}    
            amount={data[0] && data[0].gallery_images} />
  
             <h1> {data[0]  && data[0].gallery_image_title }  </h1> 
