@@ -76,7 +76,7 @@ export default function Gallery({ img1, img2, img3, img4, img5, img6, img7,img8,
     <div id="gallery1">
      
       {/*  double check of the counter, since the other not  100% safe */}
-      { (counter>(amount*10)-3) && setCounter(0)}
+      { (counter>(amount*10)-1) && setCounter(0)}
       <div id="layer1">
         <img id="galleryimage" src={images[Math.floor(counter / 10)]} />
       

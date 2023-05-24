@@ -10,7 +10,7 @@ function ContextProvider({ children }) {
 
 // New absolute path (works correctly)
     const url = "/targetx-website/data2.json";
-   // const url = "/data2.json";
+ //  const url = "/data2.json";
  
   useEffect(() => {
   const getData = async() => {
@@ -20,7 +20,7 @@ function ContextProvider({ children }) {
         throw new Error(response.status)
       } 
       const data = await response.json()
-     console.log(data)
+  //   console.log(data)
       setData(data)
      } catch(error){
     console.error(error)

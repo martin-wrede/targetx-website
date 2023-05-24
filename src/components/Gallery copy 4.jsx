@@ -5,38 +5,10 @@ import PfeilRechts from '../assets/pfeil-rechts.svg';
 
 let timerID = 0;
 
-export default function Gallery({ projectNumber }) {
+export default function Gallery({ images, project }) {
   const [counter, setCounter] = useState(0);
-  const [data, setData] = useState([]);
+
   const timerRef = useRef(null); // Use useRef to create a mutable reference
- 
-  const url  =  "/targetx-website/data2.json"; 
-
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error(response.status);
-        }
-        const data = await response.json();
-     //   console.log(data);
-        setData(data);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-  
-    getData();
-  }, [url]);
-  
-  const images = data.length > 0 && data[`${projectNumber}`].gallery_image_names.map((image) => image);
-
-  if (images.length === 0) {
-    return null; // or render a loading indicator
-  }
-
- // console.log('Images:', images);
 
   useEffect(() => {
     timerID += 1;

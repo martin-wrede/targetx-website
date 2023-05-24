@@ -65,31 +65,14 @@ export default function HistMuseumBremerhaven () {
               <br />
               <br />
              
-              <Gallery project="Lakonia"
-               img1={data[3] && data[3].gallery_image1_names[0].gallery_image1_name} 
-               img2={data[3] && data[3].gallery_image1_names[1].gallery_image1_name}  
-               img3={data[3] && data[3].gallery_image1_names[2].gallery_image1_name}  
-               img4={data[3] && data[3].gallery_image1_names[3].gallery_image1_name} 
-               img5={data[3] && data[3].gallery_image1_names[4].gallery_image1_name}    
-               img6={data[3] && data[3].gallery_image1_names[5].gallery_image1_name}    
-            amount="6"
-          // amount={data[3] && data[3].gallery_images1}
-             />
-
+              <Gallery projectNumber="3" />
+              <br />
+              <br />
+              <Gallery projectNumber="2" />
               <br />
               <br />
 
-              
-               <Gallery project="Reise"
-               img1={data[3] && data[3].gallery_image2_names[0].gallery_image2_name} 
-               img2={data[3] && data[3].gallery_image2_names[1].gallery_image2_name}  
-               img3={data[3] && data[3].gallery_image2_names[2].gallery_image2_name}  
-               img4={data[3] && data[3].gallery_image2_names[3].gallery_image2_name} 
-               img5={data[3] && data[3].gallery_image2_names[4].gallery_image2_name}    
-               img6={data[3] && data[3].gallery_image2_names[5].gallery_image2_name}    
-            
-                amount={data[3] && data[3].gallery_images2}
-             />
+               
               
               <br />
               <br />

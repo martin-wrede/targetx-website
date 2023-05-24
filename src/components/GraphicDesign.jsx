@@ -11,7 +11,7 @@ export default function GraphicDesign(){
   if (data[2] && data[2].content_chapter) {
     content = data[2].content_chapter.map((chapter, index) => (
       <div key={index}>
-        ...//////
+        
         <h1>{chapter.content_h1}</h1> 
         <h2>{chapter.content_h2}</h2>
         <span>{chapter.content_h1_text}</span>
