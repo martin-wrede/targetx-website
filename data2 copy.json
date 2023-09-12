@@ -1,15 +1,11 @@
 [
   {
-      "gallery_image_title": "Home",
+      "page_title": "home",
       "gallery_images": 5,
     "gallery_image_names": [
       "/targetx-website/Home-01.jpg",  "/targetx-website/Home-02.jpg","/targetx-website/Home-03.jpg",  "/targetx-website/Home-04.jpg", "/targetx-website/Home-05.jpg"
     ],
-    "gallery_image_title2": "Reise",
-    
-    "sidebar_h2":"",
-      "sidebar_image":"",
-      "sidebar_text":"",
+    "gallery_image_title2": "",
       "content_h1": "Media-Design",
       "content_h1_text": "UX/UI Design as well as visual appearances for companies and institutions are a focus of our work: Digital Media, Print",
       "content_h2": "",
@@ -21,11 +17,8 @@
       "button1_url": ""
   },
   {
-      "gallery_image_title": "ux-ui-design",
+      "page_title": "products",
       "gallery_images": 3,
-      "sidebar_h2":"Papersketch",
-      "sidebar_image":"/targetx-website/sketching-20210618_124624-1000.jpg",
-      "sidebar_text":"",
       "content_chapter":
         [
           {
@@ -63,19 +56,14 @@
           "button_url": "/targetx-website/ux-felix1-en.html"
           }
           ]
-     
   },
   {
-      "gallery_image_title": "graphic-design",
+      "page_title": "cart",
       "gallery_images": "",
       "gallery_image_names": 
       [ "/targetx-website/Reise-01.jpg","/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg"
-       ,"/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg" ],
-    
-      "sidebar_h2":"Poster-Design",
-      "sidebar_image":"/targetx-website/kulturen-des-wir.jpg", 
-      "sidebar_text":"",
-      "content_h1": "Graphic Design",
+       ,"/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg" ], 
+      "content_h1": "Cart",
       "content_h1_text": "",
       "content_h2": "",
       "content_h2_sub": "",
@@ -99,9 +87,6 @@
       "gallery_image2_names": 
       [ "/targetx-website/Reise-01.jpg","/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg"
        ,"/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg" ],
-      "sidebar_h2":"Gallery Lakonia / Reise",
-      "sidebar_image":"",
-      "sidebar_text":"",
       "content_chapter":
         [
           {
@@ -142,12 +127,9 @@
      
       },     
       {
-            "gallery_image_title1": "Kammerkonzerte",
+            "page_title1": "legals",
             "gallery_images1": 2,
             "gallery_image_names": ["/targetx-website/Kammerkonzerte-01.jpg","/targetx-website/Kammerkonzerte-01.jpg"],
-            "sidebar_h2": "Gallery",
-            "sidebar_image":"",
-            "sidebar_text":"",
             "content_chapter":
               [
                 {
@@ -168,10 +150,6 @@
         "gallery_image_title1": "Passus",
         "gallery_images1": 3,
         "gallery_image_names": ["/targetx-website/Passus-02.jpg","/targetx-website/Passus-03.jpg"],
-   
-        "sidebar_h2":"Gallery",
-        "sidebar_image":"",
-        "sidebar_text":"",
         "content_chapter":
           [
             {
