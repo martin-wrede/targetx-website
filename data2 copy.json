@@ -1,24 +1,45 @@
 [
   {
-      "page_title": "home",
-      "gallery_images": 5,
-    "gallery_image_names": [
-      "/targetx-website/Home-01.jpg",  "/targetx-website/Home-02.jpg","/targetx-website/Home-03.jpg",  "/targetx-website/Home-04.jpg", "/targetx-website/Home-05.jpg"
-    ],
-    "gallery_image_title2": "",
+      "gallery_image_title": "Home",
+      "gallery_images": "5",
+      "gallery_image_names": 
+      [
+        {
+          "gallery_image_name": "/targetx-website/Home-01.jpg"
+        },
+        {
+          "gallery_image_name": "/targetx-website/Home-02.jpg"
+        },
+        {
+          "gallery_image_name": "/targetx-website/Home-03.jpg"
+        },
+        {
+          "gallery_image_name": "/targetx-website/Home-04.jpg"
+        },
+        {
+          "gallery_image_name": "/targetx-website/Home-05.jpg"
+        }
+      ],
+      
+      "sidebar_h2":"",
+      "sidebar_image":"",
+      "sidebar_text":"",
       "content_h1": "Media-Design",
       "content_h1_text": "UX/UI Design as well as visual appearances for companies and institutions are a focus of our work: Digital Media, Print",
       "content_h2": "",
-      "content_h2_sub": "",
-      "content_h2_image": "",
-      "content_h2_text1": "",
-      "content_h2_text2": "",
-      "button1": "",
-      "button1_url": ""
+      "content_h2_sub": "Casestudie UX / UI Design / Responsive Website, 5-months Course at CareerFoundry, 2021",
+      "content_h2_image": "https://targetx.de/wp-content/uploads/Design-Augmented-Reality-600.jpg",
+      "content_h2_text1": "<i>Plutopay is a case study for a fictional banking app for Europe. It offers digital payment methods.</i>",
+      "content_h2_text2": "Plutopay is a case study for a fictional banking app for Europe. It offers digital payment methods.",
+      "button1": "Open Case Study",
+      "button1_url": "https://www.behance.net/gallery/129886417/UX-Design"
   },
   {
-      "page_title": "products",
+      "gallery_image_title": "ux-ui-design",
       "gallery_images": 3,
+      "sidebar_h2":"Papersketch",
+      "sidebar_image":"/targetx-website/sketching-20210618_124624-1000.jpg",
+      "sidebar_text":"",
       "content_chapter":
         [
           {
@@ -42,7 +63,7 @@
           "content_h2_text1": "Lowpoly is a concept for an AR application based on AR.js",
           "content_h2_text2": "UI Design,JavaScript Prototype",
           "button": "Open Concept",
-          "button_url": "/targetx-website/ux-ar-lowpoly-en.html"
+          "button_url": "https://targetx.de/downloads/ux-ar-lowpoly-en.html"
           },
           {
           "content_h1": "",
@@ -53,17 +74,19 @@
           "content_h2_text1": "felix1.de is an online tax advisor portal for Germany. It offers a personal tax advisor for freelancers, companies and private individuals.",
           "content_h2_text2": "Improvement of the UI design, design system, Newsletter design ",
           "button": "Open Project",
-          "button_url": "/targetx-website/ux-felix1-en.html"
+          "button_url": "http://www.targetx.de/downloads/ux-felix1-en.html"
           }
           ]
+     
   },
   {
-      "page_title": "cart",
-      "gallery_images": "",
-      "gallery_image_names": 
-      [ "/targetx-website/Reise-01.jpg","/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg"
-       ,"/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg" ], 
-      "content_h1": "Cart",
+      "gallery_image_title": "graphic-design",
+      "gallery_images": "6",
+    
+      "sidebar_h2":"Poster-Design",
+      "sidebar_image":"/targetx-website/kulturen-des-wir.jpg", 
+      "sidebar_text":"",
+      "content_h1": "Graphic Design",
       "content_h1_text": "",
       "content_h2": "",
       "content_h2_sub": "",
@@ -75,18 +98,60 @@
   },
   {
       "gallery_image_title1": "Lakonia",
-      "gallery_images1": 6,
-      "gallery_image_names": 
-      ["/targetx-website/Lakonia-01.jpg", "/targetx-website/Lakonia-02.jpg","/targetx-website/Lakonia-03.jpg", 
-      "/targetx-website/Lakonia-04.jpg", "/targetx-website/Lakonia-05.jpg","/targetx-website/Lakonia-06.jpg","/targetx-website/Lakonia-07.jpg",
-       "/targetx-website/Lakonia-08.jpg","/targetx-website/Lakonia-09.jpg","/targetx-website/Lakonia-10.jpg",
-       "/targetx-website/Lakonia-11.jpg","/targetx-website/Lakonia-12.jpg","/targetx-website/Lakonia-13.jpg"
+      "gallery_images1": 17,
+      "gallery_image1_names": 
+      [
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-01.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-02.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-03.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-04.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-05.jpg"
+        },
+        {
+          "gallery_image1_name": "/targetx-website/Lakonia-06.jpg"
+        }
       ],
       "gallery_image_title2": "Reise",
-      "gallery_images2": 8,
+      "gallery_images2": 6,
       "gallery_image2_names": 
-      [ "/targetx-website/Reise-01.jpg","/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg"
-       ,"/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg" ],
+      [
+        {
+          "gallery_image2_name": "/targetx-website/Reise-01.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-02.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-03.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-04.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-05.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-06.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-07.jpg"
+        },
+        {
+          "gallery_image2_name": "/targetx-website/Reise-08.jpg"
+        }
+      ],
+      "sidebar_h2":"Gallery Lakonia / Reise",
+      "sidebar_image":"",
+      "sidebar_text":"",
       "content_chapter":
         [
           {
@@ -127,9 +192,12 @@
      
       },     
       {
-            "page_title1": "legals",
+            "gallery_image_title1": "Kammerkonzerte",
             "gallery_images1": 2,
-            "gallery_image_names": ["/targetx-website/Kammerkonzerte-01.jpg","/targetx-website/Kammerkonzerte-01.jpg"],
+            
+            "sidebar_h2":"Gallery",
+            "sidebar_image":"",
+            "sidebar_text":"",
             "content_chapter":
               [
                 {
@@ -137,7 +205,7 @@
                 "content_h1_text": "A series of poster designs for chamber concerts with a purely typographic approach.",
                 "content_h2": "",
                 "content_h2_sub": "",
-                "content_h2_image": "/targetx-website/Kammerkonzerte-03.jpg",
+                "content_h2_image": "",
                 "content_h2_text1": "",
                 "content_h2_text2": "Visual Concept",
                 "button": "",
@@ -149,7 +217,10 @@
       {
         "gallery_image_title1": "Passus",
         "gallery_images1": 3,
-        "gallery_image_names": ["/targetx-website/Passus-02.jpg","/targetx-website/Passus-03.jpg"],
+        
+        "sidebar_h2":"Gallery",
+        "sidebar_image":"",
+        "sidebar_text":"",
         "content_chapter":
           [
             {
