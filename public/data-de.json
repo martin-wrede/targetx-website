@@ -1,0 +1,180 @@
+[
+  {
+    "gallery_image_title": "Startseite",
+    "gallery_images": 5,
+    "gallery_image_names": [
+      "/targetx-website/Home-01.jpg", "/targetx-website/Home-02.jpg", "/targetx-website/Home-03.jpg", "/targetx-website/Home-04.jpg", "/targetx-website/Home-05.jpg"
+    ],
+    "gallery_image_title2": "Reise",
+    "sidebar_h2": "",
+    "sidebar_image": "",
+    "sidebar_text": "",
+    "content_h1": "Mediendesign",
+    "content_h1_text": "UX/UI Design sowie visuelle Auftritte für Unternehmen und Institutionen stehen im Fokus unserer Arbeit: Digitale Medien, Print",
+    "content_h2": "",
+    "content_h2_sub": "",
+    "content_h2_image": "",
+    "content_h2_text1": "",
+    "content_h2_text2": "",
+    "button1": "",
+    "button1_url": ""
+  },
+  {
+    "gallery_image_title": "ux-ui-design",
+    "gallery_images": 3,
+    "sidebar_h2": "Papierskizze",
+    "sidebar_image": "/targetx-website/sketching-20210618_124624-1000.jpg",
+    "sidebar_text": "",
+    "content_chapter": [
+      {
+        "content_h1": "UX/UI Design",
+        "content_h1_text": "Fallstudie UX / UI Design",
+        "content_h2": "1 Plutopay",
+        "content_h2_sub": "Fallstudie UX / UI Design / Responsive Website, 5-monatiger Kurs bei CareerFoundry, 2021",
+        "content_h2_image": "/targetx-website/Home-03.jpg",
+        "content_h2_text1": "Plutopay ist eine Fallstudie für eine fiktive Banking-App für Europa. Sie bietet digitale Zahlungsmethoden.",
+        "content_h2_text2": "Fallstudie auf Behance ansehen",
+        "button": "Fallstudie öffnen",
+        "button_url": "https://www.behance.net/gallery/129886417/UX-Design"
+      },
+      {
+        "content_h1": "",
+        "content_h1_text": "Konzept UX / UI Design / Native App",
+        "content_h2": "2 Lowpoly Augmented Reality",
+        "content_h2_sub": "Fallstudie UX / UI Design / Responsive Website, 5-monatiger Kurs bei CareerFoundry, 2021",
+        "content_h2_image": "/targetx-website/Home-04.jpg",
+        "content_h2_text1": "Lowpoly ist ein Konzept für eine AR-Anwendung basierend auf AR.js",
+        "content_h2_text2": "UI Design, JavaScript-Prototyp",
+        "button": "Konzept öffnen",
+        "button_url": "/targetx-website/ux-ar-lowpoly-en.html"
+      },
+      {
+        "content_h1": "",
+        "content_h1_text": "",
+        "content_h2": "3 felix1.de",
+        "content_h2_sub": "Fallstudie UX / UI Design / Responsive Website, 5-monatiger Kurs bei CareerFoundry, 2021",
+        "content_h2_image": "/targetx-website/Home-01.jpg",
+        "content_h2_text1": "felix1.de ist ein Online-Steuerberater-Portal für Deutschland. Es bietet einen persönlichen Steuerberater für Freiberufler, Unternehmen und Privatpersonen.",
+        "content_h2_text2": "Verbesserung des UI-Designs, Designsystem, Newsletter-Design",
+        "button": "Projekt öffnen",
+        "button_url": "/targetx-website/ux-felix1-en.html"
+      }
+    ]
+  },
+  {
+    "gallery_image_title": "grafik-design",
+    "gallery_images": "",
+    "gallery_image_names": [
+      "/targetx-website/Reise-01.jpg", "/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg",
+      "/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg"
+    ],
+    "sidebar_h2": "Plakat-Design",
+    "sidebar_image": "/targetx-website/kulturen-des-wir.jpg",
+    "sidebar_text": "",
+    "content_h1": "Grafikdesign",
+    "content_h1_text": "",
+    "content_h2": "",
+    "content_h2_sub": "",
+    "content_h2_image": "",
+    "content_h2_text1": "",
+    "content_h2_text2": "",
+    "button1": "",
+    "button1_url": ""
+  },
+  {
+    "gallery_image_title1": "Lakonia",
+    "gallery_images1": 6,
+    "gallery_image_names": [
+      "/targetx-website/Lakonia-01.jpg", "/targetx-website/Lakonia-02.jpg", "/targetx-website/Lakonia-03.jpg", 
+      "/targetx-website/Lakonia-04.jpg", "/targetx-website/Lakonia-05.jpg", "/targetx-website/Lakonia-06.jpg", "/targetx-website/Lakonia-07.jpg",
+      "/targetx-website/Lakonia-08.jpg", "/targetx-website/Lakonia-09.jpg", "/targetx-website/Lakonia-10.jpg",
+      "/targetx-website/Lakonia-11.jpg", "/targetx-website/Lakonia-12.jpg", "/targetx-website/Lakonia-13.jpg"
+    ],
+    "gallery_image_title2": "Reise",
+    "gallery_images2": 8,
+    "gallery_image2_names": [
+      "/targetx-website/Reise-01.jpg", "/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg",
+      "/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg"
+    ],
+    "sidebar_h2": "Galerie Lakonia / Reise",
+    "sidebar_image": "",
+    "sidebar_text": "",
+    "content_chapter": [
+      {
+        "content_h1": "Historisches Museum Bremerhaven",
+        "content_h1_text": "Ein Schiffsunglück aus Sicht der Überlebenden: Am 22. Dezember 1963 brach auf dem griechischen Kreuzfahrtschiff LAKONIA 180 Meilen nordwestlich von Madeira ein Feuer aus. Die Versuche der Besatzung, das Feuer zu löschen, scheiterten, sodass es sich schnell ausbreitete. Es waren 1036 Personen an Bord. Etwa drei Stunden nach dem S.O.S.-Funk der LAKONIA trafen die ersten Schiffe ein, um die 651 Passagiere und 385 Besatzungsmitglieder zu retten. Obwohl genug Rettungsboote vorhanden waren, kamen mindestens 131 Menschen ums Leben. Über 50 der 385 Crewmitglieder stammten aus Bremerhaven...",
+        "content_h2": "Schiffsunglück der Lakonia",
+        "content_h2_sub": "Ein Schiffsunglück nordwestlich von Madeira. Es waren 1036 Personen an Bord. Etwa drei Stunden nach dem S.O.S.-Funk der LAKONIA trafen die ersten Schiffe ein, um 651 Passagiere und 385 Besatzungsmitglieder zu retten. Obwohl genug Rettungsboote vorhanden waren, kamen mindestens 131 Menschen ums Leben. Über 50 der 385 Crewmitglieder stammten aus Bremerhaven...",
+        "content_h2_image": "",
+        "content_h2_text1": "",
+        "content_h2_text2": "Corporate Design, Visuelles Ausstellungskonzept, Katalog, Informationsmaterial, Fotografie",
+        "button": "",
+        "button_url": ""
+      },
+      {
+        "content_h1": "",
+        "content_h1_text": "Seit Jahrhunderten sind norddeutsche Häfen Ausgangspunkte für Reisen in alle Welt. Nach der Gründung Bremerhavens (1827) entwickelte sich der junge Hafen innerhalb kurzer Zeit zu einem wichtigen Ausgangs- und Zielhafen für interkontinentale Routen. Bremerhaven wurde zur Basis zahlreicher Reedereien und gleichzeitig ein Knotenpunkt für Seeleute, Entdecker, Geschäftsleute, Auswanderer und Heimkehrer, Soldaten, Touristen und viele andere Reisende.",
+        "content_h2": "Wenn einer eine Reise tut…",
+        "content_h2_sub": "Souvenirs aus aller Welt.",
+        "content_h2_image": "",
+        "content_h2_text1": "",
+        "content_h2_text2": "Corporate Design, Visuelles Ausstellungskonzept, Informationsmaterial, Fotografie",
+        "button": "",
+        "button_url": ""
+      },
+      {
+        "content_h1": "",
+        "content_h1_text": "",
+        "content_h2": "Jüdisches Leben an der Wesermündung 1930–45",
+        "content_h2_sub": "",
+        "content_h2_image": "/targetx-website/Juedisches_Leben_Plakat_A2_DRUCK-768x1081.jpg",
+        "content_h2_text1": "Ein Ausstellungsprojekt der Klasse 9e des Lloyd Gymnasiums",
+        "content_h2_text2": "Corporate Design, Visuelles Ausstellungskonzept, Informationsmaterial",
+        "button": "",
+        "button_url": ""
+      }
+    ]
+  },
+  {
+    "gallery_image_title1": "Kammerkonzert",
+    "gallery_images1": 2,
+    "gallery_image_names": ["/targetx-website/Kammerkonzerte-01.jpg", "/targetx-website/Kammerkonzerte-01.jpg"],
+    "sidebar_h2": "Galerie",
+    "sidebar_image": "",
+    "sidebar_text": "",
+    "content_chapter": [
+      {
+        "content_h1": "Kammerkonzerte",
+        "content_h1_text": "Eine Serie von Plakatgestaltungen für Kammerkonzerte mit rein typografischem Ansatz.",
+        "content_h2": "",
+        "content_h2_sub": "",
+        "content_h2_image": "/targetx-website/Kammerkonzerte-03.jpg",
+        "content_h2_text1": "",
+        "content_h2_text2": "Visuelles Konzept",
+        "button": "",
+        "button_url": ""
+      }
+    ]
+  },
+  {
+    "gallery_image_title1": "Passus",
+    "gallery_images1": 3,
+    "gallery_image_names": ["/targetx-website/Passus-02.jpg", "/targetx-website/Passus-03.jpg"],
+    "sidebar_h2": "Galerie",
+    "sidebar_image": "",
+    "sidebar_text": "",
+    "content_chapter": [
+      {
+        "content_h1": "Passus",
+        "content_h1_text": "Für das Berliner Softwareunternehmen Passus wurde ein neues Corporate Design entwickelt. Neben dem Firmenlogo wurde ein Corporate Design geschaffen, das sich auch auf die Produktfamilie der Pharmadata-Software erstreckt. Die Produktlogos und das Firmenlogo bilden eine Einheit. Grafisch wird die Produktfamilie office, pocket, compact und tablet erkennbar.",
+        "content_h2": "",
+        "content_h2_sub": "",
+        "content_h2_image": "/targetx-website/Passus-01.jpg",
+        "content_h2_text1": "",
+        "content_h2_text2": "Corporate Design: Logo und Anwendungen",
+        "button": "",
+        "button_url": ""
+      }
+    ]
+  }
+]
