@@ -34,7 +34,7 @@ img {
   footer {
   
     background: rgba(204, 204, 255, 0.4);
-      width: 28%;
+    width: 28%;
     margin-top: 16px;
     padding: 3%;
     z-index: 0;
@@ -70,8 +70,8 @@ img {
         @media only screen and (max-width: 660px) {
           #menu-sprachen {
             position:absolute; 
-            top:0px;
-                  margin-top: -33px;
+            top:20px;
+                  margin-top: 0px;
                   right: 80px;
                   float: right;
                   display: block; 
@@ -93,12 +93,12 @@ img {
   
     @media only screen and (max-width: 660px) {
       #menu {
-        position: absolute;
+        position: relative;
         right:0px;
         width: 100%;
         margin-right: 0%;
-        margin-left: 48px;
-        margin-top: 48px;
+        margin-left: 0px;
+        margin-top: 0px;
         margin-bottom: 30px;
         padding-bottom: 0px;
         float: left;
@@ -220,7 +220,7 @@ img {
     position:relative;
     display: flex;
     align-items: right;
-    
+    background-color: #fff;
     
     margin-right:-40px; 
     width: 100%;
