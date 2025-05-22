@@ -34,7 +34,7 @@ img {
   footer {
   
     background: rgba(204, 204, 255, 0.4);
-    width: 28%;
+      width: 28%;
     margin-top: 16px;
     padding: 3%;
     z-index: 0;
@@ -56,31 +56,6 @@ img {
         width: 90%; } }
 
 
-  #menu-sprachen {
-    position: relative; 
-          margin-top: 10px;
-          margin-left:28px;
-         
-          float: right;
-          display: block; 
-          font-weight: 600;
-          font-size:smaller;
-        }
-  
-        @media only screen and (max-width: 660px) {
-          #menu-sprachen {
-            position:absolute; 
-            top:20px;
-                  margin-top: 0px;
-                  right: 80px;
-                  float: right;
-                  display: block; 
-                  font-weight: 600;
-                  font-size:smaller;
-                }
-        }
-
-
 
   #menu {
    position: relative; 
@@ -96,14 +71,36 @@ img {
         position: relative;
         right:0px;
         width: 100%;
-        margin-right: 0%;
-        margin-left: 0px;
-        margin-top: 0px;
+        margin-right: 0px; 
+        margin-left: 0px; /* 48px; */
+        margin-top: 48px;
         margin-bottom: 30px;
         padding-bottom: 0px;
         float: left;
         display: none; } }
-  
+  #menu-sprachen {
+          position: relative; 
+          margin-top: -4px;
+          margin-left:28px;
+         float: right; 
+          font-weight: 600;
+          font-size:smaller;
+        }
+  @media only screen and (max-width: 660px) {
+  #menu-sprachen {
+          position: absolute; 
+          z-index:1;
+           background-color: red;
+            top:0px;
+            margin-top: -30px;
+            float:none;
+            left: 80px;
+            float: right;
+            display: block; 
+                  font-weight: 600;
+                  font-size:smaller;
+                }
+        }  
   
   
   /* hier die aufklapp button "hamburger-menu" */
@@ -218,15 +215,23 @@ img {
 
   #nav2 {
     position:relative;
-    display: flex;
-    align-items: right;
-    background-color: #fff;
-    
-    margin-right:-40px; 
+  
+    width:100%;
+    float:right;
+    margin-right:0px; 
     width: 100%;
     height: 30px;
-     }
+    }
   
+  @media only screen and (max-width: 660px) {
+     #nav2 {
+      background-color: #ff3;
+       position:relative;
+       float:left;
+       margin-top:2px;
+       margin-right:0px;
+       left: 0px;
+   }}
   header {
     background-color: #fff;
     margin: 0 auto;

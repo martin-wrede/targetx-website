@@ -97,7 +97,14 @@ let onresize = function(e) {
     </div>
     </div>
      </nav> 
-
+ <div id="menu-sprachen-2"  >
+    <button className="button" onClick={() => changeLanguage("de")} disabled={language === "de"}>
+        DE
+      </button>
+      <button className="button"  onClick={() => changeLanguage("en")} disabled={language === "en"}>
+        EN
+      </button>
+    </div>
         <div id="button1" onClick={toggleMenu} className="menu-icon">
            
       <span className="menu-format"><div id="hamburger">
@@ -107,7 +114,7 @@ let onresize = function(e) {
 			</div> </span>
         </div>
     <div id="nav2">
-    <div id="menu-sprachen"  >
+    <div id="menu-sprachen-1"  >
     <button className="button" onClick={() => changeLanguage("de")} disabled={language === "de"}>
         DE
       </button>

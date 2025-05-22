@@ -50,12 +50,54 @@ let onresize = function(e) {
     return (
         <header  id="header">
         <div className="logo-container logo" >
-       
         <Link to="/"  >
           <img id="logo" src={Logo} />
             <div style={{opacity:"0", width:"100%", height:"100%"}}>targetx.de</div>
           </Link>
         </div>
+
+    <nav id="nav1">       
+    <div id="menu"  >
+    <div>
+      <ul  >
+      <li>
+        <Link to="/ux-ui-design" 
+        onClick={toggleMenu}
+        > UX/UI Design </Link>
+      </li>
+      <li  className = "dropdown-menu"  
+       onClick={toggleMenu}
+       ><Link to="/graphic-design" >Graphic Design</Link>
+      <ul className="sub-menu">
+        <li><Link to="/hist-museum-bremerhaven" >• Hist. Museum Bremerhaven</Link>
+        </li>
+        <li>
+          <Link to="/kammerkonzerte"  
+           onClick={toggleMenu} 
+          >• Kammerkonzerte</Link>
+        </li>
+        <li>
+          <Link to="/passus"
+           onClick={toggleMenu}
+          >• Passus</Link>
+        </li>
+      </ul>
+      </li>
+      <li>
+        <Link to="/cooperations" 
+         onClick={toggleMenu}
+        >Cooperations</Link>
+      </li>
+      <li>
+        <Link to="/contact" 
+         onClick={toggleMenu}
+        >Contact</Link>
+      </li>
+      </ul>
+    </div>
+    </div>
+     </nav> 
+
         <div id="button1" onClick={toggleMenu} className="menu-icon">
            
       <span className="menu-format"><div id="hamburger">
@@ -64,7 +106,7 @@ let onresize = function(e) {
 			<div className="hamburger-streifen"></div>
 			</div> </span>
         </div>
-    <nav>
+    <div id="nav2">
     <div id="menu-sprachen"  >
     <button className="button" onClick={() => changeLanguage("de")} disabled={language === "de"}>
         DE
@@ -74,7 +116,7 @@ let onresize = function(e) {
       </button>
     </div>
     
-    </nav>
+    </div>
     </header>
 
     )
