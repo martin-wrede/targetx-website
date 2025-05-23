@@ -78,6 +78,10 @@ img {
         padding-bottom: 0px;
         float: left;
         display: none; } }
+
+        
+        /* oben menu resposive */
+
   #menu-sprachen-1 {
           position: relative; 
           margin-top: -4px;
@@ -107,7 +111,7 @@ img {
   @media only screen and (max-width: 660px) {
   #menu-sprachen-2 {
           position: absolute;  
-          z-index: 1;
+          z-index: 4;
             top: 19px;         
             float:right;
             right: 74px;
@@ -217,12 +221,16 @@ img {
   }
   
   @media only screen and (max-width: 660px) {
+  
     #hamburger {
+      position: absolute;
+      right:0px;
          height:30px;
           width:28px;
+          z-index:0;
     display: block;
+    position:absolute;
     
-    float:right;
     margin-right:10px;
     margin-top:19px;
   } 
@@ -241,6 +249,9 @@ img {
     margin-top:0px;
     border-radius: 10px;
   } 
+  
+
+/* oben responsive menue neben hamburger*/
     #nav1 { 
     position:inherit;
     background-color:  #fff;
@@ -251,6 +262,7 @@ img {
     border-bottom-color: #000; 
  }
 
+/* untere horizontal menue*/
   #nav2 {
     position:relative;
     width:100%;
