@@ -61,13 +61,21 @@ export default function Header() {
               <Link to="/ux-ui-design" onClick={toggleMenu}>UX/UI Design</Link>
             </li>
             <li className="dropdown-menu" onClick={toggleMenu}>
-              <Link to="/graphic-design">Graphic Design</Link>
+              <Link to="/graphic-design">
+            {
+              language === "de" ? "Grafik Design" : "Graphic Design"
+              }
+              
+              </Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/hist-museum-bremerhaven">• Hist. Museum Bremerhaven</Link>
                 </li>
                 <li>
-                  <Link to="/kammerkonzerte">• Kammerkonzerte</Link>
+                  <Link to="/kammerkonzerte">
+                   {
+              language === "de" ? "• Kammerkonzerte" : "• Chamberconcerts"
+              }</Link>
                 </li>
                 <li>
                   <Link to="/passus">• Passus</Link>
@@ -75,10 +83,14 @@ export default function Header() {
               </ul>
             </li>
             <li>
-              <Link to="/cooperations" onClick={toggleMenu}>Cooperations</Link>
+              <Link to="/cooperations" onClick={toggleMenu}>  {
+              language === "de" ? "Kooperationen" : "Cooperations"
+              }</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+              <Link to="/contact" onClick={toggleMenu}> {
+              language === "de" ? "Kontakt" : "Contact"
+              }</Link>
             </li>
           </ul>
         </div>

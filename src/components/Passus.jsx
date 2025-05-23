@@ -9,14 +9,6 @@ export default function HistMuseumBremerhaven () {
         const { data } = useContext(Context);
 
         let content = null;
-
-        function textModify(myString){
-          console.log(myString)
-      //  const myText = document.querySelector("#text1")
-      //  return myText.innerHTML = myString.split(",")
-          
-         // return chapter.content_h2_text2.split(",").join("<br />")
-        }
       
         if (data[5] && data[5].content_chapter) {
           content = data[5].content_chapter.map((chapter, index) => (
@@ -29,11 +21,9 @@ export default function HistMuseumBremerhaven () {
               <img
                 className="content-image"
                 src={`${chapter.content_h2_image}`}
-               // src={import.meta.env.BASE_URL + `${chapter.content_h2_image}`}
               />
                <div id="text1" ><i>{chapter.content_h2_text1}</i></div>
-               <br />
-            <br /> 
+               <br /> 
             Tasks: <br /> 
             <span>{ chapter.content_h2_text2}</span> <br />
            

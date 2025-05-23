@@ -10,9 +10,7 @@ export default function Kammerkonzerte () {
         const { data } = useContext(Context);
 
         let content = null;
-
-     
-      
+ 
         if (data[4] && data[4].content_chapter) {
           content = data[4].content_chapter.map((chapter, index) => (
             <div key={index}>
@@ -31,9 +29,7 @@ export default function Kammerkonzerte () {
             <span>{ chapter.content_h2_text2}</span> <br />
            
               <br />
-              {/* 
-              <button onClick={() => window.open(chapter.button_url)}>{chapter.button}</button>
-              */}
+             
               <br />
               <br />
             </div>

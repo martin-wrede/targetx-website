@@ -1,14 +1,34 @@
-
-import React from 'react'
+import React, { useContext } from 'react';
+import Gallery from './Gallery';
+import Footer from './Footer';
+import { Context } from '../Context';
 
 
 export default function Cooperations(){
+  const {data} = useContext(Context)
+     
+
+
+  let content = null
+  if (data[6] && data[6].content_chapter) {
+    content = data[6].content_chapter.map((chapter, index) => (
+      <div key={index}>
+        <h1>{chapter.content_h1}</h1> 
+       {/*
+        <h2>{chapter.content_h2}</h2>
+         */}
+        <span>{chapter.content_h1_text}</span>
+      <br /> 
+      </div>
+    ))
+    }
+
     return (
         <div>
           <br/>
               <div className="content_container" id="main">
       <div className="content_main" id="content">
-        <h1>Cooperations</h1>
+         {content}
         <p>
           <span className="text-markierung">fsg3</span>
           <br />
@@ -24,16 +44,7 @@ export default function Cooperations(){
           </a>
         </p>
         <p>
-          <span className="text-markierung">replug</span>
-          <br />
-          Link:{" "}
-          <a
-            href="http://www.replug.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            www.replug.de
-          </a>
+           
         </p>
         <br />
        
@@ -47,7 +58,7 @@ export default function Cooperations(){
           <br />
           top, Verein zur Förderung kultureller Praxis, Berlin
           <br />
-          The non-profit association from Berlin organises and supports cultural projects. 
+          Association for the promotion of cultural practice, Berlin
 
 
 
@@ -62,15 +73,17 @@ export default function Cooperations(){
         </p>
       </div>
      
-      <div id="sidebar" className="content_sub">
-        <span className="text-markierung">Top e.V.</span>
-        <br/>
-        <br/>
-        
-        <img src="/targetx-website/Mythcelium-Festival-News-Letter.jpg" />
-        <div className="clear"></div>
+     <div id="sidebar" className="content_sub">
+      <span className="text-markierung"> {data[6] && data[6].sidebar_h2}</span>
+      <br />
+              <br />
+      {data[6] &&  <img src={`${data[6].sidebar_image}`} />
+        }
+      
       </div>
-      </div>
-      </div>
-    )
-}
+            <Footer />
+          </div>
+          </div>
+        );
+      }
+      

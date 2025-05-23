@@ -4,6 +4,7 @@ import Footer from './Footer';
 import { Context } from '../Context';
 
 export default function UxuiDesign() {
+  
   const { data } = useContext(Context);
 
   let content_ux = null;

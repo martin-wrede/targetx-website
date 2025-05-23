@@ -2,14 +2,7 @@ import React, { useContext } from 'react';
 import Gallery from './Gallery';
 import Footer from './Footer';
 import { Context } from '../Context';
-/*
-import Image01 from '../assets/Lakonia-01.jpg'
-import Image02 from '../assets/Lakonia-02.jpg'
-import Image03 from '../assets/Lakonia-03.jpg'
-import Image04 from '../assets/Lakonia-04.jpg'
-import Image05 from '../assets/Lakonia-05.jpg'
-import Image06 from '../assets/Lakonia-06.jpg'
-*/
+
 import '../App.css';
 
 export default function HistMuseumBremerhaven () {

@@ -6,6 +6,8 @@ import { Context } from '../Context';
 
 export default function GraphicDesign(){
   const {data} = useContext(Context)
+     
+
 
   let content = null
   if (data[2] && data[2].content_chapter) {
@@ -14,8 +16,9 @@ export default function GraphicDesign(){
         
         <h1>{chapter.content_h1}</h1> 
         <h2>{chapter.content_h2}</h2>
+
         <span>{chapter.content_h1_text}</span>
-       {data[2] && data[2].sidebar_h2}
+       
       <br /> 
       </div>
     ))
@@ -24,11 +27,9 @@ export default function GraphicDesign(){
     return (
         <div className="content_container" id="main">
       <div className="content_main" id="content">
-
       
-      <h1>Graphic-Design</h1>
-
-      <h2>Project Overview</h2>
+      {content}
+       
         <p>
  
           <br />
