@@ -75,15 +75,20 @@
       "sidebar_h2":"Poster-Design",
       "sidebar_image":"/targetx-website/kulturen-des-wir.jpg", 
       "sidebar_text":"",
+         "content_chapter": [
+      {
       "content_h1": "Graphic Design",
-      "content_h1_text": "",
-      "content_h2": "",
+      "content_h1_text": "Here is a selection of my past projects.",
+      "content_h2": "Project Overview",
       "content_h2_sub": "",
       "content_h2_image": "",
       "content_h2_text1": "",
       "content_h2_text2": "",
       "button1": "",
       "button1_url": ""
+      }
+    ]
+
   },
   {
       "gallery_image_title1": "Lakonia",
@@ -105,7 +110,7 @@
       "content_chapter":
         [
           {
-          "content_h1": "Hist. Museum Bremerhaven",
+          "content_h1": "Historic Museum Bremerhavn",
           "content_h1_text": "A shipwreck from the point of view of survivors: On 22 December 1963, a fire broke out on the Greek cruise ship LAKONIA 180 miles northwest of Madeira. Attempts by the crew to extinguish the fire            failed, so that the fire spread quickly. There were 1036 people on board. After the LAKONIA S.O.S. radioed, the first ships arrived about three hours later to rescue the 651 passengers and 385 crew members of the LAKONIA. Although there were enough lifeboats, at least 131 people died in the shipwreck. in the shipwreck. Of the 385 crew members of the LAKONIA, more than 50 had been hired in Bremerhaven. Most of them worked as service personnel on the LAKONIA. Many came from Bremerhaven...",
           "content_h2": "Lakonia Ship Disaster",
           "content_h2_sub": "A shiprokes northwest of Madeira. There were 1036 people on board. After the LAKONIA S.O.S. radioed, the first ships arrived about three hours later to rescue the 651 passengers and 385 crew members of the LAKONIA. Although there were enough lifeboats, at least 131 people died in the shipwreck. in the shipwreck. Of the 385 crew members of the LAKONIA, more than 50 had been hired in Bremerhaven. Most of them worked as service personnel on the LAKONIA. Many came from Bremerhaven...",
@@ -186,9 +191,29 @@
             "button_url": ""
             }     
           ]
-       
   } 
-   
+   ,
+   {
+    "gallery_image_title": "kooperation",
+    "gallery_images": 0,
+    "gallery_image_names": ["" ],
+    "sidebar_h2": "Top e.V.",
+    "sidebar_image": "/targetx-website/Mythcelium-Festival-News-Letter.jpg",
+    "sidebar_text": "",
+        "content_chapter": [
+      {
+    "content_h1": "Cooperations",
+    "content_h1_text": "Here an overview of my cooperation partners and initiatives.",
+    "content_h2": "",
+    "content_h2_sub": "",
+    "content_h2_image": "",
+    "content_h2_text1": "",
+    "content_h2_text2": "",
+    "button1": "",
+    "button1_url": ""
+      }
+    ]
+  }
        
         
 

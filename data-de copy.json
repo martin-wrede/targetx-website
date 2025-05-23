@@ -179,27 +179,5 @@
         "button_url": ""
       }
     ]
-  },
-   {
-    "gallery_image_title": "kooperation",
-    "gallery_images": 0,
-    "gallery_image_names": [""
-    ],
-    "sidebar_h2": "Top e.V.",
-    "sidebar_image": "/targetx-website/Mythcelium-Festival-News-Letter.jpg",
-    "sidebar_text": "",
-        "content_chapter": [
-      {
-    "content_h1": "Kooperationen",
-    "content_h1_text": "Hier eine Übersicht aus Kooperationspartnern und Initiativen",
-    "content_h2": "",
-    "content_h2_sub": "",
-    "content_h2_image": "",
-    "content_h2_text1": "",
-    "content_h2_text2": "",
-    "button1": "",
-    "button1_url": ""
-      }
-    ]
   }
 ]
