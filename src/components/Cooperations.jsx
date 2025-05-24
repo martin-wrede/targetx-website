@@ -76,14 +76,15 @@ export default function Cooperations(){
      <div id="sidebar" className="content_sub">
       <span className="text-markierung"> {data[6] && data[6].sidebar_h2}</span>
       <br />
-              <br />
+       <br />
       {data[6] &&  <img src={`${data[6].sidebar_image}`} />
         }
       
-      </div>
-            <Footer />
+       
+            
           </div>
+             </div>
           </div>
-        );
+        )
       }
       
