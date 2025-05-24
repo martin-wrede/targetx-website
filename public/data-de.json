@@ -46,7 +46,7 @@
         "content_h2_text1": "Lowpoly ist ein Konzept für eine AR-Anwendung basierend auf AR.js",
         "content_h2_text2": "UI Design, JavaScript-Prototyp",
         "button": "Konzept öffnen",
-        "button_url": "/targetx-website/ux-ar-lowpoly-en.html"
+        "button_url": "/targetx-website/ux-ar-lowpoly-de.html"
       },
       {
         "content_h1": "",
@@ -57,7 +57,7 @@
         "content_h2_text1": "felix1.de ist ein Online-Steuerberater-Portal für Deutschland. Es bietet einen persönlichen Steuerberater für Freiberufler, Unternehmen und Privatpersonen.",
         "content_h2_text2": "Verbesserung des UI-Designs, Designsystem, Newsletter-Design",
         "button": "Projekt öffnen",
-        "button_url": "/targetx-website/ux-felix1-en.html"
+        "button_url": "/targetx-website/ux-felix1-de.html"
       }
     ]
   },
@@ -206,13 +206,13 @@
     "gallery_image_title": "kontakt",
     "gallery_images": 0,
     "gallery_image_names": [""],
-    "sidebar_h2": "Kontaktiere <br /> mich!",
+    "sidebar_h2": "Kontaktiere mich!",
     "sidebar_image": "/targetx-website/contact-iot-1024x611.jpg",
     "sidebar_text": "",
         "content_chapter": [
       {
     "content_h1": "Kontakt",
-    "content_h1_text": "Kontaktieren Sie mich hier:",
+    "content_h1_text": "Sie können mich hier kontaktieren:",
     "content_h2": "",
     "content_h2_sub": "",
     "content_h2_image": "",
