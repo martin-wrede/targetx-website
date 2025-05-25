@@ -22,8 +22,8 @@
   {
     "gallery_image_title": "ux-ui-design",
     "gallery_images": 3,
-    "sidebar_h2": "Papierskizze",
-    "sidebar_image": "/targetx-website/sketching-20210618_124624-1000.jpg",
+    "sidebar_h2": "Design Thinking Workflow",
+    "sidebar_image": "/targetx-website/designthinking.jpg",
     "sidebar_text": "",
     "content_chapter": [
       {
@@ -86,7 +86,7 @@
   },
   {
     "gallery_image_title1": "Lakonia",
-    "gallery_images1": 6,
+    "gallery_images1": 13,
     "gallery_image_names": [
       "/targetx-website/Lakonia-01.jpg", "/targetx-website/Lakonia-02.jpg", "/targetx-website/Lakonia-03.jpg", 
       "/targetx-website/Lakonia-04.jpg", "/targetx-website/Lakonia-05.jpg", "/targetx-website/Lakonia-06.jpg", "/targetx-website/Lakonia-07.jpg",
@@ -96,9 +96,8 @@
     "gallery_image_title2": "Reise",
     "gallery_images2": 8,
     "gallery_image2_names": [
-      "/targetx-website/Reise-01.jpg", "/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg", "/targetx-website/Reise-05.jpg",
-      "/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg"
-    ],
+      "/targetx-website/Reise-01.jpg", "/targetx-website/Reise-02.jpg", "/targetx-website/Reise-03.jpg", "/targetx-website/Reise-04.jpg",
+       "/targetx-website/Reise-05.jpg", "/targetx-website/Reise-06.jpg", "/targetx-website/Reise-07.jpg", "/targetx-website/Reise-08.jpg"],
     "sidebar_h2": "Galerie Lakonia / Reise",
     "sidebar_image": "",
     "sidebar_text": "",
