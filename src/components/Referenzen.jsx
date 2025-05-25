@@ -4,7 +4,7 @@ import Footer from './Footer';
 import { Context } from '../Context';
 
 
-export default function GraphicDesign(){
+export default function Referenzen(){
   const {data} = useContext(Context)
      
 

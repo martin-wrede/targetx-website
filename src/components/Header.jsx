@@ -63,7 +63,7 @@ export default function Header() {
             <li className="dropdown-menu" onClick={toggleMenu}>
               <Link to="/graphic-design">
             {
-              language === "de" ? "Grafik Design" : "Graphic Design"
+              language === "de" ? "Referenzen" : "Referenzes"
               }
               
               </Link>

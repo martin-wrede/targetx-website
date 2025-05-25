@@ -4,7 +4,7 @@ import Footer from './Footer';
 import { Context } from '../Context';
 
 
-export default function Cooperations(){
+export default function Kooperationen(){
   const {data} = useContext(Context)
      
 
