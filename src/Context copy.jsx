@@ -4,15 +4,12 @@ const Context = React.createContext();
 
 function ContextProvider({ children }) {
   const [data, setData] = useState([]);
- const [language, setLanguage] = useState(() => {
-  const saved = localStorage.getItem("lang");
-  if (!saved) {
-    localStorage.setItem("lang", "de");
-    return "de";
-  }
-  return saved;
-});
+  const [language, setLanguage] = useState(() => {
+    // Check for saved preference or default to 'de'
+    return localStorage.getItem("lang") || "de";
+     
 
+  });
 
   // Function to change language (can be used in a button etc.)
   const changeLanguage = (lang) => {

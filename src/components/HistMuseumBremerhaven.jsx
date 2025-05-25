@@ -61,7 +61,10 @@ export default function HistMuseumBremerhaven () {
               <Gallery projectNumber="3" />
               <br />
               <br />
+              {/*
               <Gallery projectNumber="2" />
+              */}
+              
               <br />
               <br />
 
@@ -70,7 +73,7 @@ export default function HistMuseumBremerhaven () {
               <br />
               <br />
             </div>
-            <Footer />
+            
           </div>
         );
       }

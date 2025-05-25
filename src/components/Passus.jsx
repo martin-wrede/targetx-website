@@ -56,7 +56,7 @@ export default function HistMuseumBremerhaven () {
               <br />
               <br />
             </div>
-            <Footer />
+            
           </div>
         );
       }

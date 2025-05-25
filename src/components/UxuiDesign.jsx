@@ -44,15 +44,15 @@ export default function UxuiDesign() {
       </div>
       <div id="sidebar" className="content_sub">
         <span className="text-markierung"> {data[1] && data[1].sidebar_h2}
-        <br />
-        <br />
-        {data[1] &&  <img src={`${data[1].sidebar_image}`} />
-        }
         </span>
         <br />
         <br />
+        {data[1] &&  <img src={`${data[1].sidebar_image}`} />}
+        
+        <br />
+        <br />
       </div>
-      <Footer />
+      
     </div>
   );
 }

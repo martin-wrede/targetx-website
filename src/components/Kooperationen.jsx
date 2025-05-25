@@ -84,6 +84,7 @@ export default function Kooperationen(){
             
           </div>
              </div>
+             
           </div>
         )
       }

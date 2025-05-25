@@ -57,7 +57,7 @@ export default function Kammerkonzerte () {
               <br />
               <br />
             </div>
-            <Footer />
+         
           </div>
         );
       }

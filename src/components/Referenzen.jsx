@@ -85,7 +85,7 @@ export default function Referenzen(){
               <br />
               <br />
             </div>
-            <Footer />
+            
           </div>
         );
       }
