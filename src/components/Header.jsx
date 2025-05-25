@@ -83,12 +83,12 @@ export default function Header() {
               </ul>
             </li>
             <li>
-              <Link to="/cooperations" onClick={toggleMenu}>  {
+              <Link to="/kooperationen" onClick={toggleMenu}>  {
               language === "de" ? "Kooperationen" : "Cooperations"
               }</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu}> {
+              <Link to="/kontakt" onClick={toggleMenu}> {
               language === "de" ? "Kontakt" : "Contact"
               }</Link>
             </li>

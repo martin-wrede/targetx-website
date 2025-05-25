@@ -8,7 +8,7 @@ import HistMuseumBremerhaven from './components/HistMuseumBremerhaven';
 import Kammerkonzerte from './components/Kammerkonzerte';
 import Passus from './components/Passus';
 import Kooperationen from './components/Kooperationen';
-import Contact from './components/Contact';
+import Kontakt from './components/Kontakt';
 import './App.css';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           <Route path="/kammerkonzerte" element={<Kammerkonzerte />} />
           <Route path="/passus" element={<Passus />} />
           <Route path="/kooperationen" element={<Kooperationen />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/kontakt" element={<Kontakt />} />
         </Routes>
       </div>
     

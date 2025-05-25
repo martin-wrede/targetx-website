@@ -5,7 +5,7 @@ import Footer from './Footer';
 import { Context } from '../Context';
 
 
-export default function Contact(){
+export default function Kontakt(){
   const {data} = useContext(Context)
      
 
