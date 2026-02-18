@@ -1,6 +1,6 @@
 [
   {
-      "gallery_image_title": "Home",
+      "gallery_image_title": "Welcome to targetx",
       "gallery_images": 5,
     "gallery_image_names": [
       "/targetx-website/Home-01.jpg",  "/targetx-website/Home-02.jpg","/targetx-website/Home-03.jpg",  "/targetx-website/Home-04.jpg", "/targetx-website/Home-05.jpg"
@@ -10,7 +10,7 @@
     "sidebar_h2":"",
       "sidebar_image":"",
       "sidebar_text":"",
-      "content_h1": "Media-Design",
+      "content_h1": "",
       "content_h1_text": "UX/UI Design as well as visual appearances for companies and institutions are a focus of our work: Digital Media, Print",
       "content_h2": "",
       "content_h2_sub": "",
@@ -42,14 +42,14 @@
           {
           "content_h1": "",
           "content_h1_text": 
-          "Concept UX / UI Design / Native App",
-          "content_h2": "2 Lowpoly Augmented Reality",
+          "Concept UX / UI Design / Marketing Concept",
+          "content_h2": "Historic Museums Görlitz",
           "content_h2_sub": "Casestudie UX / UI Design / Responsive Website, 5-months Course at CareerFoundry, 2021",
-          "content_h2_image": "/targetx-website/Home-04.jpg",
-          "content_h2_text1": "Lowpoly is a concept for an AR application based on AR.js",
-          "content_h2_text2": "UI Design,JavaScript Prototype",
+          "content_h2_image": "/targetx-website/goerlitz.jpg",
+          "content_h2_text1": "It is a UX/design marketing concept",
+          "content_h2_text2": "Research, Poster Design, Concept",
           "button": "Open Concept",
-          "button_url": "/targetx-website/ux-ar-lowpoly-en.html"
+          "button_url": "/targetx-website/goerlitz-en.html"
           },
           {
           "content_h1": "",
@@ -77,7 +77,7 @@
       "sidebar_text":"",
          "content_chapter": [
       {
-      "content_h1": "Graphic Design",
+      "content_h1": "References",
       "content_h1_text": "Here is a selection of my past projects.",
       "content_h2": "Project Overview",
       "content_h2_sub": "",
@@ -123,7 +123,7 @@
           {
           "content_h1": "",
           "content_h1_text": 
-          "For centuries, North German harbours have been departure points for journeys all over the world. After the foundation of Bremerhaven (1827), the young port also developed port developed within a short time into an important port of departure and destination for intercontinental routes. Bremerhaven became the base for numerous shipping companies and and at the same time a hub for seamen, explorers, businessmen, emigrants and repatriates, soldiers, tourists and many other many other travellers.",
+          "For centuries, North German harbours have been departure points for journeys all over the world. After the foundation of Bremerhaven (1827), the young port also developed within a short time into an important port of departure and destination for intercontinental routes. Bremerhaven became the base for numerous shipping companies and and at the same time a hub for seamen, explorers, businessmen, emigrants and repatriates, soldiers, tourists and many other many other travellers.",
           "content_h2": "When someone is doing a trip…",
           "content_h2_sub": "Souvenirs from all over the world. ",
           "content_h2_image": "",
